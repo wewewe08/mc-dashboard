@@ -12,6 +12,13 @@ dist
 dist-ssr
 *.local
 
+vite.config.js
+package.json
+package-lock.json
+requirements.txt
+Pipfile
+Pipfile.lock
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +29,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.txt
+Pipfile
+Pipfile.lock
