@@ -1,4 +1,12 @@
+@font-face {
+  font-family: Minecraftia;
+  src: url('./assets/Minecraftia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #root {
+  font-family: Minecraftia;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
