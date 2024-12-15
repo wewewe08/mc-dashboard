@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import requests
 import base64
 import json
+from model import Player
 
 app = FastAPI()
 
@@ -19,6 +20,7 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {"Ping":"Pong"}
+
 
 @app.get("/retrieve-player/{uuid}")
 async def get_user_names(uuid: str):
